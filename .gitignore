@@ -3,6 +3,13 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+node_modules
+dist
+.env
+.vscode
+npm-debug.log
+.DS_Store
+
 # User-specific files
 *.rsuser
 *.suo

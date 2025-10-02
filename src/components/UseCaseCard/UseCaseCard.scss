@@ -1,0 +1,10 @@
+@use '../../styles/variables' as *;
+.usecase-card{
+  background:$color-white;
+  border-radius:10px;
+  padding:1rem;
+  box-shadow: 0 6px 18px rgba(12,20,60,0.06);
+  h4{ margin-top:0.5rem; color:$color-heading; }
+  p{ color:$color-muted; font-size:0.95rem; }
+  .icon{ height:56px; width:56px; background:$color-surface; border-radius:12px; display:flex; align-items:center; justify-content:center;}
+}

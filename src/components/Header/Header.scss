@@ -1,0 +1,26 @@
+@use '../../styles/variables' as *;
+
+.site-header{
+  background: $color-white;
+  border-bottom: 1px solid $color-border;
+  .header-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 1rem 1.25rem;
+  }
+  .logo img{ height:36px; }
+  .nav a{
+    margin:0 0.75rem;
+    text-decoration:none;
+    color:$color-text;
+    font-weight:600;
+  }
+  .cta .btn.primary{
+    background:$color-primary;
+    color:white;
+    padding:0.5rem 1rem;
+    border-radius:6px;
+    text-decoration:none;
+  }
+}
