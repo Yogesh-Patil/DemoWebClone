@@ -1,5 +1,4 @@
 import React from 'react'
-import './UseCaseCard.scss'
 
 type Props = {
   title: string
@@ -7,10 +6,9 @@ type Props = {
   icon?: string
 }
 
-export default function UseCaseCard({ title, description, icon }: Props){
+export default function UseCaseCard({ title, description }: Props){
   return (
-    <article className='usecase-card'>
-      <div className='icon'>{icon ? <img src={icon} alt=''/> : <div className='placeholder'/>}</div>
+    <article>
       <h4>{title}</h4>
       <p>{description}</p>
     </article>
