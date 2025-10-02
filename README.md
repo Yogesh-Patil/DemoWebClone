@@ -1,12 +1,12 @@
-# Zyber365 Clone - React + Vite (Pre-GitHub repository)
+# DemoSomeClone Clone - React + Vite (Pre-GitHub repository)
 
-This is a generated starter skeleton that replicates the **structure**, component breakdown and styles for a Zyber365-like marketing site.
+This is a generated starter skeleton that replicates the **structure**, component breakdown and styles for a DemoSomeClone-like marketing site.
 
 ## What is included
 - Vite + React + TypeScript app skeleton
 - Folder structure: `components`, `features`, `api`, `layouts`, `styles`, `assets`
 - Example components: Header, Footer, Hero, UseCaseCard, Home page
-- Global theme variables (SCSS) approximating the Zyber365 color palette
+- Global theme variables (SCSS) approximating the DemoSomeClone color palette
 - Example API layer and hooks
 - README with instructions to push to GitHub
 
@@ -20,7 +20,7 @@ This is a generated starter skeleton that replicates the **structure**, componen
    ```
    git init
    git add .
-   git commit -m "Initial commit - zyber365 clone skeleton"
+   git commit -m "Initial commit - DemoSomeClone clone skeleton"
    ```
 2. Create a GitHub repo (via website or `gh` CLI), then:
    ```
